@@ -3,6 +3,8 @@ import styles from "./singlePost.module.css";
 import Image from "next/image";
 import { Suspense } from "react";
 
+/*-------------------FETCH DATA WITH AN API---------------------- */
+
 const getData = async (slug) => {
   const res = await fetch(`https://jsonplaceholder.typicode.com/posts/${slug}`);
   if (!res.ok) {

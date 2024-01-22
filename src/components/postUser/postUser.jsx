@@ -25,7 +25,7 @@ const PostUser = async ({ userId }) => {
       <div className={styles.texts}>
         <span className={styles.title}>Author</span>
         <span className={styles.username}>{user.username}</span>
-        <span className={styles.email}>{user.email}</span>
+        <span className={styles.email}>{user.email.toLocaleLowerCase()}</span>
       </div>
     </div>
   );

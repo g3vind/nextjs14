@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./blog.module.css";
 import PostCard from "@/components/postCard/PostCard";
-
+/*-------------------FETCH DATA WITH AN API---------------------- */
 const getData = async () => {
   const res = await fetch("https://jsonplaceholder.typicode.com/posts", {
     cache: "no-store",
