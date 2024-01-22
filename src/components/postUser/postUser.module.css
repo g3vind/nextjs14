@@ -1,0 +1,29 @@
+.container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.avatar {
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.texts {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.title {
+  color: gray;
+  font-weight: bold;
+}
+.email {
+  font-size: x-small;
+  margin-top: -8px;
+  font-style: oblique;
+}
+.username {
+  font-weight: 500;
+}
